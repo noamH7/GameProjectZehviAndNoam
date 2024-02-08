@@ -1,0 +1,32 @@
+body {
+    background-image: url('/images/homeP.jpg');
+    background-size:100%;
+}
+
+.text {
+    position: absolute;
+    top: 25%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top:10%;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 10px; 
+}
+
+form input[type="submit"] {
+    width: 100%; 
+    cursor: pointer;    
+    background-color:azure;
+    color: #090909;
+}
+
+form input[type="submit"]:hover{
+    background-color: #453172;
+    color:white;
+
+}

@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html dir="rtl" lang="en">
+<link rel='stylesheet'  href='/css/start.css'>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>אתר המשחקים שלי</title>
 </head>
 <body>
-    <h2>כניסה</h2>
+    
+<div class="text">
+  <h2>כניסה</h2>
+  <form action="/html/games.html" method="post">
+    <label for="username">שם משתמש:</label><br>
+    <input type="" id="username" name="username" placeholder="שם משתמש" required><br>
+    <label for="password">סיסמא:</label><br>
+    <input type="password" id="password" name="password" placeholder="סיסמא" required><br><br>
+    <input type="submit" value="התחבר">
+  </form> 
+  <a href="/html/register.html">משתמש חדש?</a><br>
+  <a href="">שכחת סיסמא?</a> 
+</div>
 
-<form action="/html/games.html" method="post">
-  <label for="username">שם משתמש:</label><br>
-  <input type="" id="username" name="username" placeholder="שם משתמש" required><br>
-  <label for="password">סיסמא:</label><br>
-  <input type="password" id="password" name="password" placeholder="סיסמא" required><br><br>
-  <input type="submit" value="התחבר">
-</form> 
-<br>
-<a href="/html/register.html">משתמש חדש?</a>
-<br>
-<a href="">שכחת סיסמא?</a>
-<p></p>
+
 
 </body>
 </html>

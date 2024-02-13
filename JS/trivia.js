@@ -47,6 +47,13 @@ function nextQuestion(){
     else {//there are no more questions
         document.getElementById('score').textContent = score;
         end.style.display = 'block';
+
+        let user = JSON.parse(localStorage.getItem("cur_user"));
+        user.triviaScore += score; 
+        localStorage.setItem("cur_user", JSON.stringify(user));
+        let users = JSON.parse(localStorage.getItem("listUsers"));
+        users[user.playernumber]=user;
+        localStorage.setItem("listUsers", JSON.stringify(users));
     }
 }
 

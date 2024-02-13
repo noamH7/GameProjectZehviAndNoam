@@ -71,10 +71,17 @@ function play(player, psum, correction, num) {
 
     else if (sum == 100) {
         if (player == 'p1') {
-            alert("Red Won !!")
+            let user = JSON.parse(localStorage.getItem("cur_user"));
+            user.snakeAndLedders++; 
+            localStorage.setItem("cur_user", JSON.stringify(user));
+            let users = JSON.parse(localStorage.getItem("listUsers"));
+            users[user.playernumber]=user;
+            localStorage.setItem("listUsers", JSON.stringify(users));
+            alert("you won");
+
         }
         else if (player == 'p2') {
-            alert("Yellow Won !!")
+            alert("you lost")
         }
         location.reload()
     }

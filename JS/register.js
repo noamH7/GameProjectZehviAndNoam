@@ -33,6 +33,6 @@ let user={
 list.push(user);
 
 localStorage.setItem('listUsers',JSON.stringify(list));
-window.location.href= '/html/games.html';
+window.location.href= '../html/start.html';
 
 }

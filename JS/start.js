@@ -10,7 +10,7 @@ function login(event){
     let list=localStorage.getItem('listUsers')
     list=JSON.parse(list)
     if(list==null) {
-     alert(" תחילה עליך להרשם למערכת !")
+     window.alert(" תחילה עליך להרשם למערכת !")
      document.location.replace('html.register.html')
     }
     else{

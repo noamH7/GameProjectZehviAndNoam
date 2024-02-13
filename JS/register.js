@@ -25,6 +25,8 @@ let user={
     playernumber: list.length+1 || 1 ,
     name:document.getElementById('newusername').value,
     password:document.getElementById('newpassword').value,
+    triviaScore:0,
+    snakeAndLedders:0
 };
 
 

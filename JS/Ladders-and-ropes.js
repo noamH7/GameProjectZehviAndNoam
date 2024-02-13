@@ -124,7 +124,6 @@ document.getElementById("diceBtn").addEventListener("click", function () {
 
     else{
         document.getElementById('tog').innerText = "Red's Turn : "
-
         play('p2', 'p2sum', 55, num)
 
     }

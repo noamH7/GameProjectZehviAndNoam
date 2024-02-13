@@ -4,5 +4,5 @@ out.addEventListener('click',singout);
 
 function singout(){
     localStorage.removeItem("cur_user");
-    window.location.href= '/html/start.html';
+    window.location.href= '../html/start.html';
 }

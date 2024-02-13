@@ -19,11 +19,11 @@ function login(event){
                 {
                     console.log("found");
                     localStorage.setItem("cur_user",JSON.stringify(list[index])) ;
-                    window.location.href= '/html/games.html';
+                    window.location.href= '../html/games.html';
                     return;
                 }
         }
         window.alert(" תחילה עליך להרשם למערכת !");
-        window.location.href="/html/register.html";
+        window.location.href="../html/register.html";
     }
 }

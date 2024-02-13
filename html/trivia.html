@@ -4,145 +4,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet'  href='/css/trivia.css'>
-    <script src="/JS/trivia.js"></script>
+    
     <title>אתר המשחקים שלי</title>
 </head>
 <body>
     <h1>טריוויה</h1>
-    <div id="start-game">
+    <div id="start-div">
         <h2>מוכנים להתחיל?</h2>
-        <button>כן!</button>
+        <button id="start-game">כן!</button>
+    </div>
+    <div id="end-div">
+        <p>כל הכבוד! צברתם <span id="score"></span> נקודות</p>
+        <button id="check-answers">לבדיקת התשובות</button>
+        <a id="new-game" href="trivia.html">משחק חדש</a>
     </div>
     <div class="question" id="question1">
         <h2>שאלה 1</h2>
         <form method="post" action="#">
             <input type="radio" id="1a" name="answer1" value="correct">
-            <label for="1a">תשובה</label>
+            <label for="1a">תשובה</label><br/><br/>
             <input type="radio" id="1b" name="answer1" value="uncorrect">
-            <label for="1b">תשובה</label>
+            <label for="1b">תשובה</label><br/><br/>
             <input type="radio" id="1c" name="answer1" value="uncorrect">
-            <label for="1c">תשובה</label>
+            <label for="1c">תשובה</label><br/><br/>
             <input type="radio" id="1d" name="answer1" value="uncorrect">
-            <label for="1d">תשובה</label>
+            <label for="1d">תשובה</label><br/><br/>
         </form>
     </div>
     <div class="question" id="question2">
         <h2>שאלה 2</h2>
         <form method="post" action="#">
             <input type="radio" id="2a" name="answer2" value="correct">
-            <label for="2a">תשובה</label>
+            <label for="2a">תשובה</label><br/><br/>
             <input type="radio" id="2b" name="answer2" value="uncorrect">
-            <label for="2b">תשובה</label>
+            <label for="2b">תשובה</label><br/><br/>
             <input type="radio" id="2c" name="answer2" value="uncorrect">
-            <label for="2c">תשובה</label>
+            <label for="2c">תשובה</label><br/><br/>
             <input type="radio" id="2d" name="answer2" value="uncorrect">
-            <label for="2d">תשובה</label>
+            <label for="2d">תשובה</label><br/><br/>
         </form>
     </div>
     <div class="question" id="question3">
         <h2>שאלה 3</h2>
         <form method="post" action="#">
             <input type="radio" id="3a" name="answer3" value="correct">
-            <label for="3a">תשובה</label>
+            <label for="3a">תשובה</label><br/><br/>
             <input type="radio" id="3b" name="answer3" value="uncorrect">
-            <label for="3b">תשובה</label>
+            <label for="3b">תשובה</label><br/><br/>
             <input type="radio" id="3c" name="answer3" value="uncorrect">
-            <label for="3c">תשובה</label>
+            <label for="3c">תשובה</label><br/><br/>
             <input type="radio" id="3d" name="answer3" value="uncorrect">
-            <label for="3d">תשובה</label>
+            <label for="3d">תשובה</label><br/><br/>
         </form>
     </div>
     <div class="question" id="question4">
         <h2>שאלה 4</h2>
         <form method="post" action="#">
             <input type="radio" id="4a" name="answer4" value="correct">
-            <label for="4a">תשובה</label>
+            <label for="4a">תשובה</label><br/><br/>
             <input type="radio" id="4b" name="answer4" value="uncorrect">
-            <label for="4b">תשובה</label>
+            <label for="4b">תשובה</label><br/><br/>
             <input type="radio" id="4c" name="answer4" value="uncorrect">
-            <label for="4c">תשובה</label>
+            <label for="4c">תשובה</label><br/><br/>
             <input type="radio" id="4d" name="answer4" value="uncorrect">
-            <label for="4d">תשובה</label>
+            <label for="4d">תשובה</label><br/><br/>
         </form>
     </div>
     <div class="question" id="question5">
         <h2>שאלה 5</h2>
         <form method="post" action="#">
             <input type="radio" id="5a" name="answer5" value="correct">
-            <label for="5a">תשובה</label>
+            <label for="5a">תשובה</label><br/><br/>
             <input type="radio" id="5b" name="answer5" value="uncorrect">
-            <label for="5b">תשובה</label>
+            <label for="5b">תשובה</label><br/><br/>
             <input type="radio" id="5c" name="answer5" value="uncorrect">
-            <label for="5c">תשובה</label>
+            <label for="5c">תשובה</label><br/><br/>
             <input type="radio" id="5d" name="answer5" value="uncorrect">
-            <label for="5d">תשובה</label>
+            <label for="5d">תשובה</label><br/><br/>
         </form>
     </div>
     <div class="question" id="question6">
         <h2>שאלה 6</h2>
         <form method="post" action="#">
             <input type="radio" id="6a" name="answer6" value="correct">
-            <label for="6a">תשובה</label>
+            <label for="6a">תשובה</label><br/><br/>
             <input type="radio" id="6b" name="answer6" value="uncorrect">
-            <label for="6b">תשובה</label>
+            <label for="6b">תשובה</label><br/><br/>
             <input type="radio" id="6c" name="answer6" value="uncorrect">
-            <label for="6c">תשובה</label>
+            <label for="6c">תשובה</label><br/><br/>
             <input type="radio" id="6d" name="answer6" value="uncorrect">
-            <label for="6d">תשובה</label>
+            <label for="6d">תשובה</label><br/><br/>
         </form>
     </div>
     <div class="question" id="question7">
         <h2>שאלה 7</h2>
         <form method="post" action="#">
             <input type="radio" id="7a" name="answer7" value="correct">
-            <label for="7a">תשובה</label>
+            <label for="7a">תשובה</label><br/><br/>
             <input type="radio" id="7b" name="answer7" value="uncorrect">
-            <label for="7b">תשובה</label>
+            <label for="7b">תשובה</label><br/><br/>
             <input type="radio" id="7c" name="answer7" value="uncorrect">
-            <label for="7c">תשובה</label>
+            <label for="7c">תשובה</label><br/><br/>
             <input type="radio" id="7d" name="answer7" value="uncorrect">
-            <label for="7d">תשובה</label>
+            <label for="7d">תשובה</label><br/><br/>
         </form>
     </div>
     <div class="question" id="question8">
         <h2>שאלה 8</h2>
         <form method="post" action="#">
             <input type="radio" id="8a" name="answer8" value="correct">
-            <label for="8a">תשובה</label>
+            <label for="8a">תשובה</label><br/><br/>
             <input type="radio" id="8b" name="answer8" value="uncorrect">
-            <label for="8b">תשובה</label>
+            <label for="8b">תשובה</label><br/><br/>
             <input type="radio" id="8c" name="answer8" value="uncorrect">
-            <label for="8c">תשובה</label>
+            <label for="8c">תשובה</label><br/><br/>
             <input type="radio" id="8d" name="answer8" value="uncorrect">
-            <label for="8d">תשובה</label>
+            <label for="8d">תשובה</label><br/><br/>
         </form>
     </div>
     <div class="question" id="question9">
         <h2>שאלה 9</h2>
         <form method="post" action="#">
             <input type="radio" id="9a" name="answer9" value="correct">
-            <label for="9a">תשובה</label>
+            <label for="9a">תשובה</label><br/><br/>
             <input type="radio" id="9b" name="answer9" value="uncorrect">
-            <label for="9b">תשובה</label>
+            <label for="9b">תשובה</label><br/><br/>
             <input type="radio" id="9c" name="answer9" value="uncorrect">
-            <label for="9c">תשובה</label>
+            <label for="9c">תשובה</label><br/><br/>
             <input type="radio" id="9d" name="answer9" value="uncorrect">
-            <label for="9d">תשובה</label>
+            <label for="9d">תשובה</label><br/><br/>
         </form>
     </div>
     <div class="question" id="question10">
         <h2>שאלה 10</h2>
         <form method="post" action="#">
             <input type="radio" id="10a" name="answer10" value="correct">
-            <label for="10a">תשובה</label>
+            <label for="10a">תשובה</label><br/><br/>
             <input type="radio" id="10b" name="answer10" value="uncorrect">
-            <label for="10b">תשובה</label>
+            <label for="10b">תשובה</label><br/><br/>
             <input type="radio" id="10c" name="answer10" value="uncorrect">
-            <label for="10c">תשובה</label>
+            <label for="10c">תשובה</label><br/><br/>
             <input type="radio" id="10d" name="answer10" value="uncorrect">
-            <label for="10d">תשובה</label>
+            <label for="10d">תשובה</label><br/><br/>
         </form>
     </div>
 
+    <script src="/JS/trivia.js"></script>
 </body>
 </html>

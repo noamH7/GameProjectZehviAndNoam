@@ -1,5 +1,4 @@
 let c=0;
-
 const sub =document.getElementById("submit");
 sub.addEventListener("submit", login);
 function login(event){
@@ -11,7 +10,7 @@ function login(event){
     list=JSON.parse(list)
     if(list==null) {
      window.alert(" תחילה עליך להרשם למערכת !")
-     document.location.replace('html.register.html')
+     window.location.href="../html/register.html"
     }
     else{
         for (let index = 0; index < list.length; index++) {

@@ -2,8 +2,9 @@ const reg = document.getElementById("reg");
 
 reg.addEventListener('submit',addUser);
 
-
 let list=localStorage.getItem('listUsers')
+
+
 list=JSON.parse(list);
 
 function addUser(e)
@@ -33,6 +34,6 @@ let user={
 list.push(user);
 
 localStorage.setItem('listUsers',JSON.stringify(list));
-window.location.href= '../html/start.html';
+window.location.href= "start.html";
 
 }

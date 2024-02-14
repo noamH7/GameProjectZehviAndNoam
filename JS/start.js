@@ -23,6 +23,6 @@ function login(event){
                 }
         }
         window.alert(" תחילה עליך להרשם למערכת !");
-        window.location.href="../html/register.html";
+        window.location.href="../html./register.html";
     }
 }

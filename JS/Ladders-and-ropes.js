@@ -77,11 +77,11 @@ function play(player, psum, correction, num) {
             let users = JSON.parse(localStorage.getItem("listUsers"));
             users[user.playernumber]=user;
             localStorage.setItem("listUsers", JSON.stringify(users));
-            alert("you won");
+            alert("ניצחון");
 
         }
         else if (player == 'p2') {
-            alert("you lost")
+            alert("פספסת הפעם אולי בפעם הבאה")
         }
         location.reload()
     }
@@ -124,13 +124,13 @@ document.getElementById("diceBtn").addEventListener("click", function () {
     document.getElementById("dice").innerText = num
 
     if (tog % 2 != 0) {
-        document.getElementById('tog').innerText = "Yellow's Turn : "
+        document.getElementById('tog').innerText = "מחשב "
         play('p1', 'p1sum', 0, num)
 
     }
 
     else{
-        document.getElementById('tog').innerText = "Red's Turn : "
+        document.getElementById('tog').innerText = "אתה "
         play('p2', 'p2sum', 55, num)
 
     }

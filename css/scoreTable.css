@@ -1,18 +1,26 @@
-/* games.css */
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color:  #f4066d;
 }
 
 table {
     width: 80%;
-    margin: 20px auto;
     border-collapse: collapse;
+    margin: 20px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 th, td {
@@ -22,12 +30,10 @@ th, td {
 }
 
 th {
-    background-color: #4CAF50;
-    color: white;
+    background-color:  #f4066d;
+    color: #fff;
 }
 
 .userscore {
-    background-color: #ffc107; /* Yellow background for the user's score row */
+    background-color: #f9f9f9;
 }
-
-/* Add any additional styling based on your preference */
